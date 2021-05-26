@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/russ/progs/py/contented/dummy_projects/my_test_project'
+let g:netrw_dirhist_2='/home/russ/.vim'
+let g:netrw_dirhist_3='/home/russ/progs/R/mast-shiny/apps/clt'
+let g:netrw_dirhist_4='/home/russ/progs/R/mast-shiny/ex/ch2/greeter'
+let g:netrw_dirhist_5='/home/russ/progs/py/py-js-dataviz/sandpit/ch4-basic-svg'
+let g:netrw_dirhist_6='/home/russ/progs/R/mast-shiny/ex/ch3/date-slider'
+let g:netrw_dirhist_7='/home/russ/Documents/job-apps/20210303-searchability-autotester'
