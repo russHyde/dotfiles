@@ -1,0 +1,10 @@
+[user]
+	name = Russ Hyde
+	email = russ.hyde.data@gmail.com
+[alias]
+	adog = log --all --decorate --oneline --graph
+[credential]
+	helper = cache
+
+[includeIf "gitdir:~/gitlab/"]
+      path = ~/gitlab/.gitconfig_jr
