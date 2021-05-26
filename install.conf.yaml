@@ -1,7 +1,7 @@
 - clean: []
 - link: {
   "~/.vimrc": "vimrc",
-  "~/.vim", "vim",
+  "~/.vim": "vim_files",
   "~/.gitconfig": "gitconfig",
   "~/.Rprofile": "Rprofile"
 }
