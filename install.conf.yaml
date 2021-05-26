@@ -2,6 +2,7 @@
 - link: {
   "~/.vimrc": "vimrc",
   "~/.vim", "vim",
-  "~/.gitconfig": "gitconfig"
+  "~/.gitconfig": "gitconfig",
+  "~/.Rprofile": "Rprofile"
 }
 - shell: []
