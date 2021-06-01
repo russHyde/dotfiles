@@ -8,3 +8,5 @@
 
 [includeIf "gitdir:~/gitlab/"]
       path = ~/gitlab/.gitconfig_jr
+[core]
+	editor = vim
