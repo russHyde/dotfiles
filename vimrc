@@ -172,11 +172,12 @@ let r_indent_align_args = 0
 " therefore dropped 'open_curly_linter'
 
 let lintr_list = ["assignment_linter = NULL",
+                  \"closed_curly_linter = closed_curly_linter(allow_single_line = TRUE)",
                   \"commented_code_linter = NULL",
                   \"line_length_linter(100)",
                   \"object_length_linter(40)",
                   \"object_usage_linter = NULL",
-                  \"open_curly_linter = NULL",
+                  \"open_curly_linter = open_curly_linter(allow_single_line = TRUE)",
                   \"spaces_left_parentheses_linter = NULL"
                   \]
 let lintr_string = join(lintr_list, ',')
