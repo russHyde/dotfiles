@@ -1,0 +1,4 @@
+$include /etc/inputrc
+
+# ARG! Those bells!
+set bell-style none
