@@ -4,6 +4,7 @@
   "~/.vimrc": "vimrc",
   "~/.vim": "vim_files",
   "~/.gitconfig": "gitconfig",
-  "~/.Rprofile": "Rprofile"
+  "~/.Rprofile": "Rprofile",
+  "~/.tmux.conf": "tmux.conf"
 }
 - shell: []
