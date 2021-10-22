@@ -8,11 +8,11 @@
 	helper = cache
 
 [includeIf "gitdir:~/gitlab/"]
-      path = ~/gitlab/.gitconfig_jr
+      path = ~/.gitconfig_jr
 [includeIf "gitdir:~/jr_projects/"]
-      path = ~/gitlab/.gitconfig_jr
+      path = ~/.gitconfig_jr
 [includeIf "gitdir:~/github/jr/"]
-      path = ~/gitlab/.gitconfig_jr
+      path = ~/.gitconfig_jr
 
 [core]
 	editor = vim

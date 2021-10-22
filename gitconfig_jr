@@ -1,0 +1,11 @@
+[user]
+	name = Russ Hyde
+	email = russ@jumpingrivers.com
+[alias]
+	adog = log --all --decorate --oneline --graph
+	chk = checkout
+[credential]
+	helper = cache
+
+[core]
+	editor = vim

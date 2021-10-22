@@ -4,6 +4,7 @@
   "~/.vimrc": "vimrc",
   "~/.vim": "vim_files",
   "~/.gitconfig": "gitconfig",
+  "~/.gitconfig_jr": "gitconfig_jr",
   "~/.Rprofile": "Rprofile",
   "~/.tmux.conf": "tmux.conf"
 }
