@@ -4,6 +4,7 @@
 [alias]
 	adog = log --all --decorate --oneline --graph
 	chk = checkout
+	sta = status
 [credential]
 	helper = cache
 
