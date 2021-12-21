@@ -10,6 +10,8 @@
 
 [includeIf "gitdir:~/gitlab/"]
       path = ~/.gitconfig_jr
+[includeIf "gitdir:~/bitbucket/"]
+      path = ~/.gitconfig_jr
 [includeIf "gitdir:~/jr_projects/"]
       path = ~/.gitconfig_jr
 [includeIf "gitdir:~/github/jr/"]
