@@ -5,8 +5,17 @@
 	adog = log --all --decorate --oneline --graph
 	chk = checkout
 	sta = status
+	biff = "!f() { \
+  old=${1:-main}; new=${2:-HEAD}; base=$(git merge-base ${old} ${new}); \
+  git diff ${base} ${new}; \
+  }; f"
 [credential]
 	helper = cache
+
+[core]
+	editor = vim
+[init]
+  defaultBranch = main
 
 [includeIf "gitdir:~/gitlab/"]
       path = ~/.gitconfig_jr
@@ -16,8 +25,3 @@
       path = ~/.gitconfig_jr
 [includeIf "gitdir:~/github/jr/"]
       path = ~/.gitconfig_jr
-
-[core]
-	editor = vim
-[init]
-	defaultBranch = main
